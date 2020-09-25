@@ -1,0 +1,57 @@
+html, body {
+    font-weight: bold !important;
+    background: url(../imgs/backgroundgradient.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   /* background-color: #007bff;*/
+}
+
+.container-fluid {
+    background: white;
+}
+
+.btn-primary {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: none;
+    font-weight: bold; 
+}
+
+.progress-bar {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+table td, table th {
+    padding: 0px !important;
+    vertical-align: middle !important;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.prompts {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.prompts h3 {
+    margin-top: 4rem;
+}
+
+.increaseBtn {
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .create-goal-form {
+        text-align: left;
+    }
+}
